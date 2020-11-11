@@ -1,5 +1,5 @@
 html{
-    direction: ltr;
+    direction: rtl;
 }
 *{
     box-sizing: inherit;
@@ -7,11 +7,13 @@ html{
 body{
     box-sizing: border-box;
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
   
 }
 ul{
     padding: 0px;
     margin: 0px;
+    list-style:none ;
     }
     a{
         text-decoration:none ;
