@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +9,12 @@
     <link rel="stylesheet" href="css/all.css">
     <title>فروشگاه من</title>
 </head>
+
 <body>
     <div class="wrapper">
         <header class="header">
-            <div class="topinfo">
-                <ul>
+            <div class="topinfo flex">
+                <ul class="flex">
                     <li>
                         <a href="#" class="ac_li_itemlink">
                             <i class="fas fa-user"></i>ثبت نام</a>
@@ -25,11 +27,48 @@
                 <div class="language">
                     <img class="fa-icon" src="img/icon/iran.png" alt="persian languges"> فارسی</div>
             </div>
-            <div class="logo"></div>
+            <div class="header_info flex">
+                <div class="flex">
+                    <img src="img/img/logo1.png" alt="">
+                    <span class="logo_s1">فروشگاه <span>
+                    <br>
+                    <span class="logo_s2">هرچیزی که فکرش رو بکنی</span>
+                </div>
+                <div class="searchbox flex">
+                    <select name="" id="" class="categorylist">
+                        <option value="1">کامپیوتر</option>
+                        <option value="2">موبایل</option>
+                        <option value="3">شبکه</option>
+                        <option value="4">پرینتر</option>
+                    </select>
+                    <input  class="searchinput" type="text" name="" id="" placeholder="عنوانی  را برای جستجو وارد کنید">
+                    <a href="" class="btnsearch"><i class="fas fa-search"></i></a>
+                </div>
+                <div class="contactus flex">
+                    <div class="contactusicon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <div>
+                        <span>شماره ی تماس فروشگاه</span>
+                        <br>
+                        <span> تلفن: 091252467789</span>
+                    </div>
+                </div>
+                <div class="cart flex ">
+                    <div class="carticon">
+                    <i class="fas fa-shopping-basket"></i>
+                </div>
+                <div>
+                    <span>سبد خرید</span>
+                    <br>
+                    <span> 2 محصول به مبلغ 150،000 تومان</span>
+                </div></div>
+            </div>
             <nav class="mainnav"></nav>
         </header>
         <main></main>
         <footer></footer>
     </div>
 </body>
+
 </html>
