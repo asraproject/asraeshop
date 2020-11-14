@@ -1,6 +1,7 @@
 .wrapper{
     width: 90%;
     margin: 10px auto;
+    box-shadow: 0 0 10px 0 silver;
 }
 /*header*/
 .header{
@@ -165,4 +166,39 @@ left:7%;
 color: #000;
 text-decoration:underline;
 }
+/*main*/
+.main{
+background-color: #fff;
+}
+.slider{
+    height:422px;
+    padding: 10px;
 
+}
+.r_ads{
+    width: 25%;
+    margin-left:10px ;
+}
+.l_ads{
+   flex-grow:1;
+}
+.r_ads img,
+.l_ads img{
+    width: 100%;
+    height: 100%;
+}
+.topproduct{
+background-color: #f5f2f2;
+}
+.topproductitem{
+    flex-grow: 1;
+    padding: 10px;
+}
+.topproductimage img{
+    border-radius: 50%;
+    width: 100px;
+}
+.topproductinfo{
+align-self: center;
+padding-right: 10px;
+}
