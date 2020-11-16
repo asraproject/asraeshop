@@ -320,3 +320,72 @@ text-align: center;
 font-weight: bold;
 width: 100%;
 }
+.hotsalelist{
+    flex-wrap: wrap;
+}
+.hotsaleitem{
+    width: 33%;
+    flex-grow: 1;
+}
+.hotsaledetail{
+    margin: 10px;
+    border: 1px solid #ddd;
+}
+.hotsaleimage{
+    width:150px;
+   
+}
+.hotsaleimage img{
+width: 100%;
+}
+
+.hotsaleinfo{
+    flex-grow: 1;
+}
+.hotcategoryitem{
+    width: 25%;
+}
+.hotcategorydetail{
+    margin:0 30px;
+}
+.hotcategoryimage{
+    position: relative;
+}
+.hotcategoryimage img{
+width: 100%;
+}
+.hotcategoryimage .btn{
+    position: absolute;
+   bottom:30%;
+    left:10%;
+    padding: 1px 20px;
+}
+.hotcategoryimage .btn:hover{
+  background-color: #000;
+}
+.hotcategorydetail h4{
+margin:5px ;
+padding: 0;
+color: #555 ;
+}
+.hotcategorydetail h4 a{
+    color: #555 ;
+}
+.hotcategorylist{
+list-style: square;
+ color: #555 ;
+ margin:0 25px;
+}
+.hotcatrgorylistitem:hover{
+color: #F4A137  ;
+}
+.hotcatrgorylistitem a{
+color: #555 ;
+display: block;
+
+}
+.hotcatrgorylistitem a:hover,
+.hotcategorydetail h4 a:hover
+{
+    color: #F4A137 ;
+    }
