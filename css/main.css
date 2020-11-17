@@ -2,11 +2,12 @@
     width: 90%;
     margin: 10px auto;
     box-shadow: 0 0 10px 0 silver;
+    border-radius:10px ;
 }
 /*header*/
 .header{
     background-color:#232f3e ;
-    border-radius: 5px 5px 0 0;
+    border-radius: 10px 10px 0 0;
     color: #fff;
 }
 .header a{
@@ -342,6 +343,9 @@ width: 100%;
 .hotsaleinfo{
     flex-grow: 1;
 }
+.hotcategorys{
+    margin-bottom: 30px;
+}
 .hotcategoryitem{
     width: 25%;
 }
@@ -389,3 +393,102 @@ display: block;
 {
     color: #F4A137 ;
     }
+/*footer*/
+.footer{
+    background-color: #232f3e;
+    border-radius:0 0 10px 10px ;
+}
+.footerinformation,
+.newsletter{
+    border-bottom: 1px solid #303e4f;
+}
+.footerinformationitem{
+    width: 25%;
+    flex-grow: 1;
+    margin: 20px;
+}
+.footerinformationitem h4{
+    color:#fff;
+    margin:5px 0;
+    padding: 0;
+}
+.footermenulink{
+    color:#bcbdc7 ;
+    position: relative;
+}
+.footermenulink:hover{ 
+    color:#fff ;
+    padding-right: 10px;
+}
+.footermenulink::before{
+    content: ' ';
+    position: absolute;
+    width: 0px;
+    height: 1px;
+    top: 13px;
+    right: 0px;
+    transition: all 0.2s ease;
+}
+.footermenulink:hover::before{
+    background-color: #f4a137;
+    width: 8px;
+}
+.newsletterinput {
+    height: 40px;
+    flex-grow: 1;
+   
+}
+.newsletterinput  input{
+    border-radius:0 20px 20px 0;
+    
+  }
+   
+.newsletter{
+    padding: 10px;
+    align-items: center;
+    margin-top: 5px;
+   
+}
+.newslettermail {
+    align-items: center;
+}
+.newslettermail h4,
+.footersociallinks h4{
+    color: #fff;
+    padding-left: 20px;
+   
+}
+.footersociallinks{
+    flex-grow: 1;
+    justify-content:flex-end;
+    align-items: center;
+    margin-left: 20%;
+}
+.footersociallink{
+    background-color: silver;
+    border-radius: 50%;
+    width: 40px;
+    height:40px;
+    padding:8px ;
+    margin: 0 5px;
+    color: #232f3e;
+    display: block;
+    text-align: center;
+}
+.footersociallink:hover{
+    color: #fff;
+    background-color:  #F4A137;
+}
+.copyr{
+    padding: 20px;
+    color: #fff;
+    
+}
+.copyr_text,
+.copyr_panit{
+    flex-grow: 1;
+    align-items: center;
+}
+.copyr_panit{
+text-align: left;
+}
